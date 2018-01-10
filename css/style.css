@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.flexbox_up {
+    display: flex;
+    height: 300px;
+}
+
+.flexbox_up div {
+    height: 100px;
+    width: 33.33%;
+    background: yellow;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    border: 1px solid slateblue;
+}
+
+.flexbox_down {
+    display: flex;
+    height: 200px;
+}
+
+.flexbox_down div {
+    height: 100px;
+    width: 33.33%;
+    background: yellow;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    border: 1px solid slateblue;
+}
+
+.flexbox_up .s {
+    align-self: center;
+}
+
+.flexbox_up .t {
+    align-self: flex-end;
+}
+
+.flexbox_down .f5{
+    align-self: flex-end;
+}
